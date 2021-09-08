@@ -1,1 +1,54 @@
-Test
+
+
+1. Create empty folder 
+git init
+2. Associate with git repo 
+git remote add origin https://github.com/Oleksandr-Salivon/Database.git
+3. Pull of of repo
+git pull origin master
+4.After changing (create new files, folders etc.) 
+git add .
+git commit -m "test"
+git push origin master
+
+
+C:\Users\sai7602\Desktop\test>git init
+Initialized empty Git repository in C:/Users/sai7602/Desktop/test/.git/
+
+C:\Users\sai7602\Desktop\test>git remote add origin https://github.com/Oleksandr-Salivon/Database.git
+
+C:\Users\sai7602\Desktop\test>git pull origin master
+
+
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 200 bytes | 14.00 KiB/s, done.
+From https://github.com/Oleksandr-Salivon/Database
+ * branch            master     -> FETCH_HEAD
+ * [new branch]      master     -> origin/master
+
+C:\Users\sai7602\Desktop\test>git add .
+
+
+C:\Users\sai7602\Desktop\test>git commit -m "test"
+[master 1cc97f4] test
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Test.txt
+
+
+C:\Users\sai7602\Desktop\test>git push origin master
+
+
+
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 261 bytes | 130.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Oleksandr-Salivon/Database.git
+   90b66fc..1cc97f4  master -> master
+
+
+
